@@ -1,0 +1,92 @@
+{
+  "chapterId": "ch05",
+  "title": "Leiderschap",
+  "questions": [
+    {
+      "id": "ch05-q001",
+      "chapterId": "ch05",
+      "sectionRef": "5.1",
+      "difficulty": "beginner",
+      "question": "Welke rol speelt het topmanagement bij de implementatie van NEN 7510?",
+      "options": [
+        { "id": "a", "text": "Het topmanagement delegeert alle verantwoordelijkheden aan de IT-afdeling" },
+        { "id": "b", "text": "Het topmanagement toont leiderschap en betrokkenheid ten aanzien van het ISMS" },
+        { "id": "c", "text": "Het topmanagement is niet verantwoordelijk voor informatiebeveiliging" },
+        { "id": "d", "text": "Het topmanagement bepaalt alleen het budget voor beveiliging" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Paragraaf 5.1 vereist dat het topmanagement leiderschap en betrokkenheid toont door het ISMS te integreren in de bedrijfsprocessen, beleid vast te stellen en middelen beschikbaar te stellen.",
+      "hint": "Het hogere management heeft een actieve rol, niet alleen een passieve.",
+      "tags": ["leiderschap", "topmanagement", "betrokkenheid"],
+      "xpValue": 10
+    },
+    {
+      "id": "ch05-q002",
+      "chapterId": "ch05",
+      "sectionRef": "5.2",
+      "difficulty": "beginner",
+      "question": "Wat moet een informatiebeveiligingsbeleid (policy) minimaal bevatten volgens NEN 7510?",
+      "options": [
+        { "id": "a", "text": "Alleen de namen van verantwoordelijke medewerkers" },
+        { "id": "b", "text": "Doelstellingen voor informatiebeveiliging en een kader voor het stellen van doelen" },
+        { "id": "c", "text": "Alleen technische beveiligingsspecificaties" },
+        { "id": "d", "text": "Uitsluitend financiële doelstellingen" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Paragraaf 5.2 stelt dat het informatiebeveiligingsbeleid passend moet zijn voor de organisatie, doelstellingen voor informatiebeveiliging bevat of een kader biedt voor het stellen van deze doelstellingen, en een toezegging omvat voor voortdurende verbetering.",
+      "tags": ["beleid", "policy", "doelstellingen"],
+      "xpValue": 10
+    },
+    {
+      "id": "ch05-q003",
+      "chapterId": "ch05",
+      "sectionRef": "5.3",
+      "difficulty": "intermediate",
+      "question": "Wat bedoelt NEN 7510 met 'organisatorische rollen, verantwoordelijkheden en bevoegdheden'?",
+      "options": [
+        { "id": "a", "text": "Uitsluitend de rol van de CISO in de organisatie" },
+        { "id": "b", "text": "Het toewijzen en communiceren van verantwoordelijkheden voor informatiebeveiliging binnen de organisatie" },
+        { "id": "c", "text": "De technische configuratie van toegangsrechten in IT-systemen" },
+        { "id": "d", "text": "De hiërarchie in de IT-afdeling" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Paragraaf 5.3 vereist dat het topmanagement ervoor zorgt dat verantwoordelijkheden en bevoegdheden voor relevante rollen worden toegewezen en gecommuniceerd. Dit omvat wie verantwoordelijk is voor het ISMS en wie rapporteert over de prestaties.",
+      "tags": ["rollen", "verantwoordelijkheden", "bevoegdheden"],
+      "xpValue": 10
+    },
+    {
+      "id": "ch05-q004",
+      "chapterId": "ch05",
+      "sectionRef": "5.1",
+      "difficulty": "intermediate",
+      "question": "Welke actie toont concreet het leiderschap van het topmanagement bij NEN 7510?",
+      "options": [
+        { "id": "a", "text": "Het volledig uitbesteden van informatiebeveiliging aan een extern bureau" },
+        { "id": "b", "text": "Het jaarlijks controleren van het ISMS door het topmanagement" },
+        { "id": "c", "text": "Het integreren van het ISMS in de bedrijfsprocessen en het beschikbaar stellen van benodigde middelen" },
+        { "id": "d", "text": "Het delegeren van alle beveiligingstaken aan medewerkers op uitvoerend niveau" }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Actief leiderschap betekent het ISMS integreren in de strategische richting van de organisatie, middelen beschikbaar stellen, het belang van effectief informatiebeveiliging communiceren en het ISMS bevorderen.",
+      "tags": ["leiderschap", "integratie", "middelen"],
+      "xpValue": 10
+    },
+    {
+      "id": "ch05-q005",
+      "chapterId": "ch05",
+      "sectionRef": "5.2",
+      "difficulty": "advanced",
+      "question": "Hoe moet het informatiebeveiligingsbeleid worden gecommuniceerd volgens NEN 7510?",
+      "options": [
+        { "id": "a", "text": "Alleen intern via een besloten intranet" },
+        { "id": "b", "text": "Het hoeft niet gecommuniceerd te worden als het gedocumenteerd is" },
+        { "id": "c", "text": "Het moet beschikbaar zijn als gedocumenteerde informatie en gecommuniceerd worden binnen de organisatie" },
+        { "id": "d", "text": "Uitsluitend mondeling aan het management" }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Het informatiebeveiligingsbeleid moet beschikbaar zijn als gedocumenteerde informatie, gecommuniceerd worden binnen de organisatie en beschikbaar worden gesteld aan geïnteresseerde partijen waar passend.",
+      "tags": ["communicatie", "beleid", "documentatie"],
+      "xpValue": 10
+    }
+  ]
+}

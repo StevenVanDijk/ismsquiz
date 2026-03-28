@@ -1,0 +1,76 @@
+<div class="dashboard-page">
+
+  <div class="hero-card">
+    <div class="hero-top">
+      <div class="level-badge">
+        <mat-icon>star</mat-icon>
+        <span>Level {{ level }}</span>
+      </div>
+      <div class="xp-total">{{ progressService.totalXP() }} XP</div>
+    </div>
+    <div class="hero-greeting">NEN 7510 leren</div>
+    <div class="hero-sub">Informatiebeveiliging in de zorg</div>
+
+    <div class="xp-bar-wrap">
+      <app-progress-bar
+        [value]="xpLevelPct"
+        [label]="'Voortgang naar level ' + (level + 1)"
+        [height]="10">
+      </app-progress-bar>
+    </div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-tile">
+      <mat-icon>quiz</mat-icon>
+      <span class="stat-value">{{ progressService.totalQuestionsAnswered() }}</span>
+      <span class="stat-label">Vragen</span>
+    </div>
+    <div class="stat-tile">
+      <mat-icon>bolt</mat-icon>
+      <span class="stat-value">{{ progressService.currentStreak() }}</span>
+      <span class="stat-label">Streak</span>
+    </div>
+    <div class="stat-tile">
+      <mat-icon>percent</mat-icon>
+      <span class="stat-value">{{ overallPct }}%</span>
+      <span class="stat-label">Voltooid</span>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="section-header">
+      <h3>Jouw badges</h3>
+      <button mat-button color="primary" (click)="router.navigate(['/badges'])">Alle badges</button>
+    </div>
+    <div class="badges-row">
+      @for (item of recentBadges(); track item.badge.id) {
+        <app-badge-card
+          [badge]="item.badge"
+          [unlocked]="item.unlocked"
+          [compact]="false">
+        </app-badge-card>
+      }
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <h3>Hoofdstukken</h3>
+      <button mat-button color="primary" (click)="router.navigate(['/chapters'])">Alle hoofdstukken</button>
+    </div>
+    <div class="chapters-grid">
+      @for (ch of chapters(); track ch.id) {
+        <div class="chapter-mini" (click)="router.navigate(['/chapters', ch.id])" [style.--ch-color]="ch.color">
+          <mat-icon class="ch-icon">{{ ch.icon }}</mat-icon>
+          <div class="ch-info">
+            <div class="ch-title">Hfst. {{ ch.number }}</div>
+            <app-progress-bar [value]="chapterPct(ch.id)" [showLabel]="false" [height]="4"></app-progress-bar>
+          </div>
+          <span class="ch-pct">{{ chapterPct(ch.id) }}%</span>
+        </div>
+      }
+    </div>
+  </section>
+
+</div>

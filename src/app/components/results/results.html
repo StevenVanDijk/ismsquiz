@@ -1,0 +1,76 @@
+<div class="results-page">
+  <div class="score-hero">
+    <div class="emoji">{{ emoji }}</div>
+    <h2 class="message">{{ message }}</h2>
+    <div class="score-ring">
+      <svg viewBox="0 0 100 100">
+        <circle cx="50" cy="50" r="40" class="track"/>
+        <circle cx="50" cy="50" r="40" class="fill"
+          [style.stroke-dashoffset]="251.2 - (score / 100 * 251.2)"/>
+      </svg>
+      <div class="score-text">
+        <span class="score-pct">{{ score }}%</span>
+        <span class="score-label">{{ correctCount }}/{{ totalCount }} goed</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="xp-banner">
+    <mat-icon>bolt</mat-icon>
+    <span>+{{ xpEarned }} XP verdiend!</span>
+    <span class="total-xp">Totaal: {{ progressService.totalXP() }} XP</span>
+  </div>
+
+  @if (newlyUnlockedBadges().length > 0) {
+    <div class="badges-section">
+      <h3 class="section-title">
+        <mat-icon>emoji_events</mat-icon>
+        Nieuwe badges!
+      </h3>
+      <div class="badges-grid">
+        @for (badge of newlyUnlockedBadges(); track badge.id) {
+          <app-badge-card [badge]="badge" [unlocked]="true" [highlight]="true"></app-badge-card>
+        }
+      </div>
+    </div>
+  }
+
+  <div class="answers-section">
+    <h3 class="section-title">
+      <mat-icon>quiz</mat-icon>
+      Jouw antwoorden
+    </h3>
+    <div class="answers-list">
+      @for (result of sessionResults; track result.question.id; let i = $index) {
+        <div class="answer-item" [class.correct]="result.correct" [class.incorrect]="!result.correct">
+          <div class="answer-number">{{ i + 1 }}</div>
+          <div class="answer-content">
+            <p class="answer-question">{{ result.question.question }}</p>
+            <p class="answer-given">
+              <strong>Jouw antwoord:</strong>
+              {{ result.question.options | findOption : result.selectedAnswerId }}
+            </p>
+            @if (!result.correct) {
+              <p class="answer-correct-text">
+                <strong>Juiste antwoord:</strong>
+                {{ result.question.options | findOption : result.question.correctAnswerId }}
+              </p>
+            }
+          </div>
+          <mat-icon class="result-icon">{{ result.correct ? 'check_circle' : 'cancel' }}</mat-icon>
+        </div>
+      }
+    </div>
+  </div>
+
+  <div class="actions">
+    <button mat-stroked-button color="primary" (click)="retryQuiz()">
+      <mat-icon>replay</mat-icon>
+      Opnieuw proberen
+    </button>
+    <button mat-flat-button color="primary" (click)="goToChapters()">
+      <mat-icon>menu_book</mat-icon>
+      Hoofdstukken
+    </button>
+  </div>
+</div>

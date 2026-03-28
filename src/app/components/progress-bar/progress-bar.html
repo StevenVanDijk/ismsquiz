@@ -1,0 +1,15 @@
+<div class="progress-wrapper">
+  @if (showLabel && label) {
+    <div class="progress-label">
+      <span class="label-text">{{ label }}</span>
+      <span class="label-pct">{{ value }}%</span>
+    </div>
+  }
+  <mat-progress-bar
+    [mode]="'determinate'"
+    [value]="value"
+    [color]="color"
+    [style.height.px]="height"
+    [style.border-radius.px]="height / 2">
+  </mat-progress-bar>
+</div>

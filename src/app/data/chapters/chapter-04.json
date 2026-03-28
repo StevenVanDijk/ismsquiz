@@ -1,0 +1,93 @@
+{
+  "chapterId": "ch04",
+  "title": "Organisatorische context",
+  "questions": [
+    {
+      "id": "ch04-q001",
+      "chapterId": "ch04",
+      "sectionRef": "4.1",
+      "difficulty": "beginner",
+      "question": "Wat is het primaire doel van het begrijpen van de organisatorische context bij de implementatie van een ISMS?",
+      "options": [
+        { "id": "a", "text": "Het bepalen van de IT-infrastructuur van de organisatie" },
+        { "id": "b", "text": "Het identificeren van interne en externe factoren die van invloed zijn op het ISMS" },
+        { "id": "c", "text": "Het opstellen van een IT-beveiligingsbudget" },
+        { "id": "d", "text": "Het selecteren van leveranciers voor beveiligingstools" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Artikel 4.1 van NEN 7510 vereist dat de organisatie interne en externe factoren bepaalt die relevant zijn voor haar doelstellingen en die van invloed zijn op het vermogen van het ISMS om de beoogde resultaten te bereiken.",
+      "hint": "Denk aan alles wat buiten en binnen de organisatie van invloed kan zijn.",
+      "tags": ["context", "ISMS", "scope"],
+      "xpValue": 10
+    },
+    {
+      "id": "ch04-q002",
+      "chapterId": "ch04",
+      "sectionRef": "4.2",
+      "difficulty": "beginner",
+      "question": "Welke term beschrijft partijen die belang hebben bij of worden beïnvloed door het ISMS van een zorginstelling?",
+      "options": [
+        { "id": "a", "text": "Informatiebeheerders" },
+        { "id": "b", "text": "Autorisatieverlenende instanties" },
+        { "id": "c", "text": "Relevante geïnteresseerde partijen" },
+        { "id": "d", "text": "Risicodragers" }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "NEN 7510 paragraaf 4.2 gebruikt de term 'relevante geïnteresseerde partijen'. Voorbeelden in de zorg zijn patiënten, medewerkers, toezichthouders (IGJ, NZa), zorgverzekeraars en ICT-leveranciers.",
+      "tags": ["belanghebbenden", "stakeholders"],
+      "xpValue": 10
+    },
+    {
+      "id": "ch04-q003",
+      "chapterId": "ch04",
+      "sectionRef": "4.3",
+      "difficulty": "intermediate",
+      "question": "Wat bepaalt de reikwijdte van het ISMS (scope) in NEN 7510?",
+      "options": [
+        { "id": "a", "text": "De omvang van het IT-budget van de organisatie" },
+        { "id": "b", "text": "De grenzen en toepasbaarheid van het ISMS op basis van externe en interne context" },
+        { "id": "c", "text": "Het aantal medewerkers in de IT-afdeling" },
+        { "id": "d", "text": "De locatie van de datacenters van de organisatie" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Paragraaf 4.3 stelt dat de organisatie de grenzen en toepasbaarheid van het ISMS moet bepalen, rekening houdend met de interne en externe context en de eisen van relevante geïnteresseerde partijen.",
+      "hint": "Het gaat om de grenzen van wat het ISMS dekt.",
+      "tags": ["scope", "toepasbaarheid"],
+      "xpValue": 10
+    },
+    {
+      "id": "ch04-q004",
+      "chapterId": "ch04",
+      "sectionRef": "4.1",
+      "difficulty": "intermediate",
+      "question": "Welke van de volgende is een voorbeeld van een EXTERNE factor die de context van een zorginstelling beïnvloedt?",
+      "options": [
+        { "id": "a", "text": "De interne IT-architectuur van de organisatie" },
+        { "id": "b", "text": "De cultuur en waarden van de organisatie" },
+        { "id": "c", "text": "Wet- en regelgeving zoals de AVG en WGBO" },
+        { "id": "d", "text": "De interne communicatiestructuur" }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Externe factoren omvatten wet- en regelgeving, technologische ontwikkelingen, marktomstandigheden en sociale factoren. De AVG (privacywetgeving) en WGBO (wet op de geneeskundige behandelingsovereenkomst) zijn typische externe factoren voor zorginstellingen.",
+      "tags": ["externe context", "wet- en regelgeving", "AVG"],
+      "xpValue": 10
+    },
+    {
+      "id": "ch04-q005",
+      "chapterId": "ch04",
+      "sectionRef": "4.2",
+      "difficulty": "advanced",
+      "question": "Wat moet een organisatie documenteren over de eisen van geïnteresseerde partijen in het kader van NEN 7510?",
+      "options": [
+        { "id": "a", "text": "Alleen de financiële eisen van aandeelhouders" },
+        { "id": "b", "text": "Uitsluitend de wettelijke verplichtingen" },
+        { "id": "c", "text": "De relevante eisen van geïnteresseerde partijen die betrekking hebben op informatiebeveiliging" },
+        { "id": "d", "text": "De persoonlijke voorkeuren van de CEO" }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Paragraaf 4.2 vereist dat de organisatie de relevante geïnteresseerde partijen én hun relevante eisen met betrekking tot informatiebeveiliging in kaart brengt. Dit helpt bij het bepalen van de scope en het beveiligingsbeleid.",
+      "tags": ["eisen", "documentatie", "geïnteresseerde partijen"],
+      "xpValue": 10
+    }
+  ]
+}

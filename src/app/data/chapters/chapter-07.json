@@ -1,0 +1,92 @@
+{
+  "chapterId": "ch07",
+  "title": "Ondersteuning",
+  "questions": [
+    {
+      "id": "ch07-q001",
+      "chapterId": "ch07",
+      "sectionRef": "7.1",
+      "difficulty": "beginner",
+      "question": "Welke middelen moet een organisatie beschikbaar stellen voor het ISMS?",
+      "options": [
+        { "id": "a", "text": "Alleen financiële middelen" },
+        { "id": "b", "text": "Alleen IT-hardware en -software" },
+        { "id": "c", "text": "De benodigde middelen voor het opzetten, implementeren, onderhouden en continu verbeteren van het ISMS" },
+        { "id": "d", "text": "Alleen personele middelen" }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Paragraaf 7.1 vereist dat de organisatie alle benodigde middelen bepaalt en beschikbaar stelt voor het opzetten, implementeren, onderhouden en voortdurend verbeteren van het ISMS. Dit omvat personeel, technologie, financiën en kennis.",
+      "hint": "Denk breed: middelen zijn meer dan alleen geld.",
+      "tags": ["middelen", "resources", "ISMS"],
+      "xpValue": 10
+    },
+    {
+      "id": "ch07-q002",
+      "chapterId": "ch07",
+      "sectionRef": "7.2",
+      "difficulty": "intermediate",
+      "question": "Wat moet een organisatie doen als medewerkers niet de vereiste competenties hebben voor informatiebeveiliging?",
+      "options": [
+        { "id": "a", "text": "De medewerkers ontslaan en nieuwe aanwerven" },
+        { "id": "b", "text": "Passende acties ondernemen zoals training, opleiding of nieuwe aanwerving" },
+        { "id": "c", "text": "De beveiligingseisen aanpassen aan het huidige competentieniveau" },
+        { "id": "d", "text": "Een extern bureau de taken laten overnemen" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Paragraaf 7.2 stelt dat als medewerkers niet de vereiste competenties hebben, de organisatie passende acties moet ondernemen: training, opleiding, mentoring of het aannemen van gekwalificeerde personen. De effectiviteit van deze acties moet worden beoordeeld.",
+      "tags": ["competentie", "training", "opleiding"],
+      "xpValue": 10
+    },
+    {
+      "id": "ch07-q003",
+      "chapterId": "ch07",
+      "sectionRef": "7.3",
+      "difficulty": "beginner",
+      "question": "Wat houdt 'bewustzijn' (awareness) in volgens NEN 7510?",
+      "options": [
+        { "id": "a", "text": "Medewerkers moeten alle technische details van het ISMS kennen" },
+        { "id": "b", "text": "Medewerkers moeten bewust zijn van het beveiligingsbeleid, hun bijdrage en de gevolgen van niet-naleving" },
+        { "id": "c", "text": "Alleen IT-medewerkers hoeven bewust te zijn van beveiligingsrisico's" },
+        { "id": "d", "text": "Bewustzijn is optioneel als er technische maatregelen zijn" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Paragraaf 7.3 vereist dat medewerkers bewust zijn van het informatiebeveiligingsbeleid, de manier waarop zij bijdragen aan de effectiviteit van het ISMS, en de gevolgen als niet aan de vereisten van het ISMS wordt voldaan.",
+      "tags": ["bewustzijn", "awareness", "medewerkers"],
+      "xpValue": 10
+    },
+    {
+      "id": "ch07-q004",
+      "chapterId": "ch07",
+      "sectionRef": "7.5",
+      "difficulty": "intermediate",
+      "question": "Wat zijn kenmerken van 'gedocumenteerde informatie' die vereist is door NEN 7510?",
+      "options": [
+        { "id": "a", "text": "Uitsluitend papieren documenten die door het management zijn ondertekend" },
+        { "id": "b", "text": "Informatie die beschikbaar en geschikt voor gebruik is, en adequaat beschermd wordt" },
+        { "id": "c", "text": "Alleen digitale bestanden die opgeslagen zijn in een gecertificeerd systeem" },
+        { "id": "d", "text": "Informele notities die op verzoek kunnen worden geproduceerd" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Gedocumenteerde informatie (paragraaf 7.5) moet beschikbaar en geschikt zijn voor gebruik waar en wanneer nodig, en adequaat worden beschermd (tegen ongeautoriseerde toegang, onjuist gebruik, verlies van integriteit). Het kan zowel papier als digitaal zijn.",
+      "tags": ["documentatie", "gedocumenteerde informatie", "7.5"],
+      "xpValue": 10
+    },
+    {
+      "id": "ch07-q005",
+      "chapterId": "ch07",
+      "sectionRef": "7.4",
+      "difficulty": "advanced",
+      "question": "Wat bepaalt NEN 7510 over interne en externe communicatie over het ISMS?",
+      "options": [
+        { "id": "a", "text": "Communicatie is volledig optioneel en ter beoordeling van de organisatie" },
+        { "id": "b", "text": "De organisatie moet bepalen wat, wanneer, met wie en hoe gecommuniceerd wordt over het ISMS" },
+        { "id": "c", "text": "Alle communicatie moet via officiële schriftelijke rapporten verlopen" },
+        { "id": "d", "text": "Communicatie mag alleen plaatsvinden via een gecertificeerde beveiligingsofficier" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Paragraaf 7.4 vereist dat de organisatie de behoefte aan interne en externe communicatie over het ISMS bepaalt, inclusief: waarover gecommuniceerd wordt, wanneer, met wie, wie communiceert en via welk proces.",
+      "tags": ["communicatie", "interne communicatie", "externe communicatie"],
+      "xpValue": 10
+    }
+  ]
+}

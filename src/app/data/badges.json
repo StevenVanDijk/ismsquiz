@@ -1,0 +1,166 @@
+{
+  "badges": [
+    {
+      "id": "first-quiz",
+      "name": "Eerste stap",
+      "description": "Voltooi je eerste quiz",
+      "icon": "star",
+      "color": "#FFC107",
+      "criteria": { "trigger": "first_quiz" },
+      "sortOrder": 1
+    },
+    {
+      "id": "ch04-complete",
+      "name": "Contextkenner",
+      "description": "Voltooi alle vragen van hoofdstuk 4",
+      "icon": "business",
+      "color": "#1565C0",
+      "criteria": { "trigger": "chapter_complete", "chapterId": "ch04" },
+      "sortOrder": 10
+    },
+    {
+      "id": "ch05-complete",
+      "name": "Leider in beveiliging",
+      "description": "Voltooi alle vragen van hoofdstuk 5",
+      "icon": "manage_accounts",
+      "color": "#6A1B9A",
+      "criteria": { "trigger": "chapter_complete", "chapterId": "ch05" },
+      "sortOrder": 11
+    },
+    {
+      "id": "ch06-complete",
+      "name": "Risicodenker",
+      "description": "Voltooi alle vragen van hoofdstuk 6",
+      "icon": "event_note",
+      "color": "#00695C",
+      "criteria": { "trigger": "chapter_complete", "chapterId": "ch06" },
+      "sortOrder": 12
+    },
+    {
+      "id": "ch07-complete",
+      "name": "Ondersteuningspilaar",
+      "description": "Voltooi alle vragen van hoofdstuk 7",
+      "icon": "support_agent",
+      "color": "#E65100",
+      "criteria": { "trigger": "chapter_complete", "chapterId": "ch07" },
+      "sortOrder": 13
+    },
+    {
+      "id": "ch08-complete",
+      "name": "Uitvoeringsexpert",
+      "description": "Voltooi alle vragen van hoofdstuk 8",
+      "icon": "engineering",
+      "color": "#B71C1C",
+      "criteria": { "trigger": "chapter_complete", "chapterId": "ch08" },
+      "sortOrder": 14
+    },
+    {
+      "id": "ch09-complete",
+      "name": "Meting en monitor",
+      "description": "Voltooi alle vragen van hoofdstuk 9",
+      "icon": "assessment",
+      "color": "#37474F",
+      "criteria": { "trigger": "chapter_complete", "chapterId": "ch09" },
+      "sortOrder": 15
+    },
+    {
+      "id": "ch10-complete",
+      "name": "Verbeteraar",
+      "description": "Voltooi alle vragen van hoofdstuk 10",
+      "icon": "trending_up",
+      "color": "#1B5E20",
+      "criteria": { "trigger": "chapter_complete", "chapterId": "ch10" },
+      "sortOrder": 16
+    },
+    {
+      "id": "annex-a-complete",
+      "name": "Beheersmaatregelmeester",
+      "description": "Voltooi alle vragen van Bijlage A",
+      "icon": "security",
+      "color": "#4A148C",
+      "criteria": { "trigger": "chapter_complete", "chapterId": "annex-a" },
+      "sortOrder": 17
+    },
+    {
+      "id": "all-complete",
+      "name": "NEN 7510 Expert",
+      "description": "Voltooi alle hoofdstukken en bijlagen",
+      "icon": "workspace_premium",
+      "color": "#F57F17",
+      "criteria": { "trigger": "all_chapters_complete" },
+      "sortOrder": 100
+    },
+    {
+      "id": "perfect-score",
+      "name": "Perfectionist",
+      "description": "Behaal een perfecte score in een quiz",
+      "icon": "emoji_events",
+      "color": "#FFD600",
+      "criteria": { "trigger": "perfect_score" },
+      "sortOrder": 50
+    },
+    {
+      "id": "streak-5",
+      "name": "Op stoom",
+      "description": "Beantwoord 5 vragen achter elkaar correct",
+      "icon": "local_fire_department",
+      "color": "#FF6D00",
+      "criteria": { "trigger": "streak", "threshold": 5 },
+      "sortOrder": 51
+    },
+    {
+      "id": "streak-10",
+      "name": "Niet te stoppen",
+      "description": "Beantwoord 10 vragen achter elkaar correct",
+      "icon": "bolt",
+      "color": "#FF9100",
+      "criteria": { "trigger": "streak", "threshold": 10 },
+      "sortOrder": 52
+    },
+    {
+      "id": "xp-100",
+      "name": "Honderd punten",
+      "description": "Verdien 100 XP",
+      "icon": "grade",
+      "color": "#64DD17",
+      "criteria": { "trigger": "total_xp", "threshold": 100 },
+      "sortOrder": 60
+    },
+    {
+      "id": "xp-500",
+      "name": "Kennis verzamelaar",
+      "description": "Verdien 500 XP",
+      "icon": "military_tech",
+      "color": "#00BFA5",
+      "criteria": { "trigger": "total_xp", "threshold": 500 },
+      "sortOrder": 61
+    },
+    {
+      "id": "xp-1000",
+      "name": "Informatiebeveiligingsprofessional",
+      "description": "Verdien 1000 XP",
+      "icon": "diamond",
+      "color": "#AA00FF",
+      "criteria": { "trigger": "total_xp", "threshold": 1000 },
+      "sortOrder": 62
+    },
+    {
+      "id": "questions-25",
+      "name": "Leerling",
+      "description": "Beantwoord 25 vragen",
+      "icon": "school",
+      "color": "#0288D1",
+      "criteria": { "trigger": "questions_answered", "threshold": 25 },
+      "sortOrder": 70
+    },
+    {
+      "id": "questions-100",
+      "name": "Doorgewinterd",
+      "description": "Beantwoord 100 vragen",
+      "icon": "psychology",
+      "color": "#7B1FA2",
+      "criteria": { "trigger": "questions_answered", "threshold": 100 },
+      "sortOrder": 71
+    }
+  ]
+}

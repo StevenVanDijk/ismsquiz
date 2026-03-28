@@ -1,0 +1,147 @@
+.question-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.section-ref {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: rgba(0,0,0,0.5);
+  font-size: 13px;
+
+  mat-icon {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.difficulty {
+  margin-left: auto;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  &-beginner  { background: #E8F5E9; color: #2E7D32; }
+  &-intermediate { background: #FFF8E1; color: #F57F17; }
+  &-advanced  { background: #FCE4EC; color: #C62828; }
+}
+
+.question-text {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 0;
+  color: rgba(0,0,0,0.87);
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 56px;
+  padding: 12px 16px;
+  border: 2px solid rgba(0,0,0,0.12);
+  border-radius: 12px;
+  background: white;
+  text-align: left;
+  cursor: pointer;
+  font-size: 15px;
+  color: rgba(0,0,0,0.87);
+  transition: all 0.25s ease;
+
+  &:not([disabled]):hover {
+    border-color: var(--mat-sys-primary);
+    background: color-mix(in srgb, var(--mat-sys-primary) 6%, white);
+  }
+
+  &:active:not([disabled]) {
+    transform: scale(0.98);
+  }
+
+  &.correct {
+    background: #E8F5E9;
+    border-color: #2E7D32;
+    border-left: 5px solid #2E7D32;
+  }
+
+  &.incorrect {
+    background: #FCE4EC;
+    border-color: #C62828;
+    border-left: 5px solid #C62828;
+  }
+
+  &.dimmed {
+    opacity: 0.4;
+  }
+}
+
+.option-id {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(0,0,0,0.08);
+  font-size: 13px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.option-text {
+  flex: 1;
+  line-height: 1.4;
+}
+
+.check-icon {
+  color: #2E7D32;
+  flex-shrink: 0;
+}
+
+.x-icon {
+  color: #C62828;
+  flex-shrink: 0;
+}
+
+.explanation {
+  display: flex;
+  gap: 10px;
+  padding: 14px;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  animation: slide-in 0.3s ease;
+
+  &.correct {
+    background: #E8F5E9;
+    color: #1B5E20;
+    mat-icon { color: #2E7D32; }
+  }
+
+  &.incorrect {
+    background: #FFF8E1;
+    color: #5D4037;
+    mat-icon { color: #FF8F00; }
+  }
+
+  mat-icon { flex-shrink: 0; }
+
+  p { margin: 0; }
+}
+
+@keyframes slide-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

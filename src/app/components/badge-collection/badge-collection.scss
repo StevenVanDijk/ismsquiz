@@ -1,0 +1,32 @@
+.badge-collection-page {
+  padding: 16px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.page-header {
+  margin-bottom: 12px;
+  h2 { margin: 0; font-size: 22px; font-weight: 700; }
+  p  { margin: 4px 0 0; font-size: 14px; color: rgba(0,0,0,0.5); }
+}
+
+.progress-summary {
+  height: 6px;
+  background: rgba(0,0,0,0.08);
+  border-radius: 3px;
+  margin-bottom: 20px;
+  overflow: hidden;
+
+  .progress-fill {
+    height: 100%;
+    background: var(--mat-sys-primary);
+    border-radius: 3px;
+    transition: width 0.5s ease;
+  }
+}
+
+.badges-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}

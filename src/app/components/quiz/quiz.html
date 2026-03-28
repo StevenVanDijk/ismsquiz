@@ -1,0 +1,43 @@
+<div class="quiz-page">
+  @if (loading()) {
+    <div class="loading">
+      <mat-spinner diameter="48"></mat-spinner>
+      <p>Vragen laden...</p>
+    </div>
+  } @else {
+    <div class="quiz-header">
+      <span class="question-counter">
+        Vraag {{ quizState.currentIndex() + 1 }} / {{ quizState.totalQuestions() }}
+      </span>
+      <app-progress-bar
+        [value]="progressValue"
+        [showLabel]="false"
+        [height]="6">
+      </app-progress-bar>
+    </div>
+
+    @if (quizState.currentQuestion(); as q) {
+      <div class="question-wrap">
+        <app-question-card
+          [question]="q"
+          [feedbackState]="feedbackState()"
+          [selectedAnswerId]="selectedAnswerId()"
+          (answerSelected)="onAnswerSelected($event)">
+        </app-question-card>
+
+        @if (feedbackState() !== 'none') {
+          <div class="action-row">
+            <div class="xp-earned" [class.visible]="feedbackState() === 'correct'">
+              <mat-icon>bolt</mat-icon>
+              <span>+{{ q.xpValue }} XP</span>
+            </div>
+            <button mat-flat-button color="primary" class="next-btn" (click)="nextQuestion()">
+              {{ quizState.isComplete() ? 'Bekijk resultaten' : 'Volgende vraag' }}
+              <mat-icon>arrow_forward</mat-icon>
+            </button>
+          </div>
+        }
+      </div>
+    }
+  }
+</div>

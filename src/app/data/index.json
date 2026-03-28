@@ -1,0 +1,86 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-03-28",
+  "chapters": [
+    {
+      "id": "ch04",
+      "number": "4",
+      "title": "Organisatorische context",
+      "subtitle": "De organisatie en haar context begrijpen",
+      "icon": "business",
+      "color": "#1565C0",
+      "totalQuestions": 5,
+      "xpReward": 10
+    },
+    {
+      "id": "ch05",
+      "number": "5",
+      "title": "Leiderschap",
+      "subtitle": "Leiderschap en betrokkenheid",
+      "icon": "manage_accounts",
+      "color": "#6A1B9A",
+      "totalQuestions": 5,
+      "xpReward": 10
+    },
+    {
+      "id": "ch06",
+      "number": "6",
+      "title": "Planning",
+      "subtitle": "Risico's en kansen aanpakken",
+      "icon": "event_note",
+      "color": "#00695C",
+      "totalQuestions": 5,
+      "xpReward": 10
+    },
+    {
+      "id": "ch07",
+      "number": "7",
+      "title": "Ondersteuning",
+      "subtitle": "Middelen, competentie en communicatie",
+      "icon": "support_agent",
+      "color": "#E65100",
+      "totalQuestions": 5,
+      "xpReward": 10
+    },
+    {
+      "id": "ch08",
+      "number": "8",
+      "title": "Uitvoering",
+      "subtitle": "Operationele planning en beheersing",
+      "icon": "engineering",
+      "color": "#B71C1C",
+      "totalQuestions": 5,
+      "xpReward": 10
+    },
+    {
+      "id": "ch09",
+      "number": "9",
+      "title": "Prestatie-evaluatie",
+      "subtitle": "Monitoren, meten en beoordelen",
+      "icon": "assessment",
+      "color": "#37474F",
+      "totalQuestions": 5,
+      "xpReward": 10
+    },
+    {
+      "id": "ch10",
+      "number": "10",
+      "title": "Verbetering",
+      "subtitle": "Afwijkingen en continue verbetering",
+      "icon": "trending_up",
+      "color": "#1B5E20",
+      "totalQuestions": 5,
+      "xpReward": 10
+    },
+    {
+      "id": "annex-a",
+      "number": "A",
+      "title": "Bijlage A – Beheersmaatregelen",
+      "subtitle": "Informatiebeveiligingsbeheersmaatregelen",
+      "icon": "security",
+      "color": "#4A148C",
+      "totalQuestions": 8,
+      "xpReward": 15
+    }
+  ]
+}

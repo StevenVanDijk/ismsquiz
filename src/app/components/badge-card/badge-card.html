@@ -1,0 +1,20 @@
+<div
+  class="badge-card"
+  [class.unlocked]="unlocked"
+  [class.compact]="compact"
+  [class.highlight]="highlight"
+  [matTooltip]="unlocked ? badge.description : 'Vergrendeld: ' + badge.description"
+  [style.--badge-color]="unlocked ? badge.color : '#9E9E9E'">
+  <div class="badge-icon-wrap">
+    <mat-icon class="badge-icon">{{ badge.icon }}</mat-icon>
+    @if (!unlocked) {
+      <mat-icon class="lock-icon">lock</mat-icon>
+    }
+  </div>
+  @if (!compact) {
+    <div class="badge-info">
+      <div class="badge-name">{{ badge.name }}</div>
+      <div class="badge-desc">{{ badge.description }}</div>
+    </div>
+  }
+</div>

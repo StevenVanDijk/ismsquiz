@@ -1,0 +1,92 @@
+{
+  "chapterId": "ch08",
+  "title": "Uitvoering",
+  "questions": [
+    {
+      "id": "ch08-q001",
+      "chapterId": "ch08",
+      "sectionRef": "8.1",
+      "difficulty": "beginner",
+      "question": "Wat vereist NEN 7510 paragraaf 8.1 ten aanzien van operationele planning?",
+      "options": [
+        { "id": "a", "text": "Alleen een jaarlijks beveiligingsauditrapport" },
+        { "id": "b", "text": "Het plannen, implementeren, beheersen en beoordelen van processen die nodig zijn om ISMS-eisen te realiseren" },
+        { "id": "c", "text": "Uitsluitend het bijhouden van incidentenregistratie" },
+        { "id": "d", "text": "Het uitbesteden van alle operationele beveiligingstaken" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Paragraaf 8.1 vereist dat de organisatie de benodigde processen plant, implementeert, beheerst en beoordeelt om aan de eisen van het ISMS te voldoen. Dit omvat ook het beheersen van geplande wijzigingen en het managen van onbedoelde gevolgen.",
+      "hint": "Het gaat om de uitvoering van wat in de planning is bepaald.",
+      "tags": ["operationele planning", "uitvoering", "procesbeheersing"],
+      "xpValue": 10
+    },
+    {
+      "id": "ch08-q002",
+      "chapterId": "ch08",
+      "sectionRef": "8.2",
+      "difficulty": "intermediate",
+      "question": "Hoe vaak moet een risicobeoordeling worden uitgevoerd?",
+      "options": [
+        { "id": "a", "text": "Eenmalig bij de implementatie van het ISMS" },
+        { "id": "b", "text": "Alleen als er een beveiligingsincident heeft plaatsgevonden" },
+        { "id": "c", "text": "Op geplande intervallen of wanneer significante wijzigingen worden voorgesteld of optreden" },
+        { "id": "d", "text": "Jaarlijks, ongeacht veranderingen in de organisatie" }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Paragraaf 8.2 stelt dat de risicobeoordeling op geplande intervallen of bij significante wijzigingen moet worden uitgevoerd. De frequentie hangt af van de risicobereidheid en veranderingen in de omgeving.",
+      "tags": ["risicobeoordeling", "frequentie", "wijzigingen"],
+      "xpValue": 10
+    },
+    {
+      "id": "ch08-q003",
+      "chapterId": "ch08",
+      "sectionRef": "8.3",
+      "difficulty": "intermediate",
+      "question": "Wat is het doel van het risicobehandelingsplan?",
+      "options": [
+        { "id": "a", "text": "Het volledig documenteren van alle bekende kwetsbaarheden" },
+        { "id": "b", "text": "Het beschrijven hoe geselecteerde beheersmaatregelen worden geïmplementeerd om risico's te behandelen" },
+        { "id": "c", "text": "Het rapporteren van beveiligingsincidenten aan toezichthouders" },
+        { "id": "d", "text": "Het opstellen van een budget voor beveiligingsinvesteringen" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Het risicobehandelingsplan (paragraaf 8.3) beschrijft hoe de geselecteerde risicobehandelingsopties en beheersmaatregelen worden geïmplementeerd. Het bevat ook wie verantwoordelijk is, welke middelen nodig zijn en wanneer de implementatie gereed moet zijn.",
+      "tags": ["risicobehandelingsplan", "beheersmaatregelen", "implementatie"],
+      "xpValue": 10
+    },
+    {
+      "id": "ch08-q004",
+      "chapterId": "ch08",
+      "sectionRef": "8.1",
+      "difficulty": "beginner",
+      "question": "Wat moet een organisatie doen bij het uitbesteden van beveiligingsgerelateerde processen?",
+      "options": [
+        { "id": "a", "text": "De verantwoordelijkheid voor beveiliging volledig overdragen aan de leverancier" },
+        { "id": "b", "text": "Ervoor zorgen dat uitbestede processen worden beheerd en beheersmaatregelen worden opgelegd via contracten" },
+        { "id": "c", "text": "Geen beveiligingseisen stellen aan externe leveranciers" },
+        { "id": "d", "text": "Alle uitbesteding vermijden vanwege beveiligingsrisico's" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Bij uitbesteding (paragraaf 8.1) blijft de organisatie verantwoordelijk voor de beveiliging. Via contractuele afspraken moet worden gewaarborgd dat de leverancier de beveiligingseisen naleeft.",
+      "tags": ["uitbesteding", "leveranciers", "contractbeheer"],
+      "xpValue": 10
+    },
+    {
+      "id": "ch08-q005",
+      "chapterId": "ch08",
+      "sectionRef": "8.2",
+      "difficulty": "advanced",
+      "question": "Wat moet worden gedocumenteerd als bewijs van de uitvoering van de risicobeoordeling?",
+      "options": [
+        { "id": "a", "text": "Alleen de eindconclusies van de risicobeoordeling" },
+        { "id": "b", "text": "Bewijs van de resultaten van de risicobeoordeling als gedocumenteerde informatie" },
+        { "id": "c", "text": "Uitsluitend de risico's die worden geaccepteerd" },
+        { "id": "d", "text": "Alleen de namen van de betrokken risicoeigenaars" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "NEN 7510 paragraaf 8.2 vereist dat de organisatie gedocumenteerde informatie bewaart als bewijs van de resultaten van de risicobeoordeling. Dit omvat de geïdentificeerde risico's, de analyse, de evaluatie en de keuzes voor risicobehandeling.",
+      "tags": ["documentatie", "bewijs", "risicobeoordeling"],
+      "xpValue": 10
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "chapterId": "ch09",
+  "title": "Prestatie-evaluatie",
+  "questions": [
+    {
+      "id": "ch09-q001",
+      "chapterId": "ch09",
+      "sectionRef": "9.1",
+      "difficulty": "beginner",
+      "question": "Wat monitort en meet een organisatie bij de prestatie-evaluatie van het ISMS?",
+      "options": [
+        { "id": "a", "text": "Alleen het aantal beveiligingsincidenten per jaar" },
+        { "id": "b", "text": "De prestaties van het ISMS en de effectiviteit ervan" },
+        { "id": "c", "text": "Uitsluitend de financiële kosten van beveiligingsmaatregelen" },
+        { "id": "d", "text": "Alleen de technische beschikbaarheid van IT-systemen" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Paragraaf 9.1 vereist dat de organisatie de prestaties en de effectiviteit van het ISMS evalueert. Dit omvat wat gemonitord en gemeten wordt, welke methoden worden gebruikt, wanneer en wie analyseert en evalueert.",
+      "hint": "Evalueren gaat verder dan alleen het tellen van incidenten.",
+      "tags": ["monitoring", "meting", "prestaties"],
+      "xpValue": 10
+    },
+    {
+      "id": "ch09-q002",
+      "chapterId": "ch09",
+      "sectionRef": "9.2",
+      "difficulty": "intermediate",
+      "question": "Wat is het doel van een interne ISMS-audit?",
+      "options": [
+        { "id": "a", "text": "Het voorbereiden op een externe certificeringsaudit" },
+        { "id": "b", "text": "Vaststellen of het ISMS voldoet aan de eigen eisen en effectief is geïmplementeerd" },
+        { "id": "c", "text": "Het identificeren van medewerkers die beveiligingsregels overtreden" },
+        { "id": "d", "text": "Het vergelijken van het ISMS met concurrenten" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "De interne audit (paragraaf 9.2) heeft als doel vast te stellen of het ISMS voldoet aan de eigen eisen van de organisatie en de eisen van NEN 7510, en of het effectief is geïmplementeerd en onderhouden.",
+      "tags": ["interne audit", "conformiteit", "effectiviteit"],
+      "xpValue": 10
+    },
+    {
+      "id": "ch09-q003",
+      "chapterId": "ch09",
+      "sectionRef": "9.3",
+      "difficulty": "intermediate",
+      "question": "Wat is een directiebeoordeling (management review) en wanneer wordt deze uitgevoerd?",
+      "options": [
+        { "id": "a", "text": "Een technische beoordeling door de IT-afdeling, maandelijks" },
+        { "id": "b", "text": "Een beoordeling van het ISMS door het topmanagement op geplande intervallen" },
+        { "id": "c", "text": "Een beoordeling door externe auditors, jaarlijks verplicht" },
+        { "id": "d", "text": "Een beoordeling uitsluitend na een beveiligingsincident" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Paragraaf 9.3 vereist dat het topmanagement het ISMS op geplande intervallen beoordeelt om de voortdurende geschiktheid, toereikendheid en effectiviteit te waarborgen. Input omvat auditresultaten, feedback, prestatie-indicatoren en risicobehandelingsacties.",
+      "tags": ["directiebeoordeling", "management review", "topmanagement"],
+      "xpValue": 10
+    },
+    {
+      "id": "ch09-q004",
+      "chapterId": "ch09",
+      "sectionRef": "9.2",
+      "difficulty": "beginner",
+      "question": "Mogen interne auditoren hun eigen werk auditeren?",
+      "options": [
+        { "id": "a", "text": "Ja, als zij de meeste kennis hebben" },
+        { "id": "b", "text": "Ja, maar alleen met toestemming van het management" },
+        { "id": "c", "text": "Nee, auditoren mogen niet hun eigen werk auditeren (objectiviteit)" },
+        { "id": "d", "text": "Alleen als er geen andere gekwalificeerde auditoren beschikbaar zijn" }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Paragraaf 9.2 vereist dat auditoren objectiviteit en onpartijdigheid waarborgen. Dit betekent dat zij geen gebieden mogen auditeren waarvoor zij verantwoordelijk zijn geweest.",
+      "tags": ["objectiviteit", "onpartijdigheid", "audit"],
+      "xpValue": 10
+    },
+    {
+      "id": "ch09-q005",
+      "chapterId": "ch09",
+      "sectionRef": "9.3",
+      "difficulty": "advanced",
+      "question": "Wat moet de output van een directiebeoordeling minimaal bevatten?",
+      "options": [
+        { "id": "a", "text": "Alleen een goedkeuringsstempel van de directeur" },
+        { "id": "b", "text": "Beslissingen over mogelijkheden voor verbetering en eventuele wijzigingen in het ISMS" },
+        { "id": "c", "text": "Een gedetailleerd technisch rapport over alle IT-systemen" },
+        { "id": "d", "text": "Uitsluitend de financiële gevolgen van beveiligingsmaatregelen" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "De output van de directiebeoordeling (paragraaf 9.3) moet beslissingen bevatten over mogelijkheden voor verbetering en eventuele wijzigingen in het ISMS, inclusief aanpassingen in beleid, doelstellingen en middelen. Dit moet worden gedocumenteerd.",
+      "tags": ["directiebeoordeling", "output", "verbetering"],
+      "xpValue": 10
+    }
+  ]
+}

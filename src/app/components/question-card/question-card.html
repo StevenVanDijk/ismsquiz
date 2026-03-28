@@ -1,0 +1,35 @@
+<div class="question-card">
+  <div class="section-ref">
+    <mat-icon>bookmark</mat-icon>
+    <span>{{ question.sectionRef }}</span>
+    <span class="difficulty difficulty-{{ question.difficulty }}">{{ question.difficulty }}</span>
+  </div>
+
+  <p class="question-text">{{ question.question }}</p>
+
+  <div class="options">
+    @for (option of question.options; track option.id) {
+      <button
+        class="option-btn"
+        [class]="getOptionClass(option.id)"
+        [disabled]="feedbackState !== 'none'"
+        (click)="select(option.id)">
+        <span class="option-id">{{ option.id.toUpperCase() }}</span>
+        <span class="option-text">{{ option.text }}</span>
+        @if (feedbackState !== 'none' && option.id === question.correctAnswerId) {
+          <mat-icon class="check-icon">check_circle</mat-icon>
+        }
+        @if (feedbackState !== 'none' && option.id === selectedAnswerId && option.id !== question.correctAnswerId) {
+          <mat-icon class="x-icon">cancel</mat-icon>
+        }
+      </button>
+    }
+  </div>
+
+  @if (feedbackState !== 'none') {
+    <div class="explanation" [class.correct]="feedbackState === 'correct'" [class.incorrect]="feedbackState === 'incorrect'">
+      <mat-icon>{{ feedbackState === 'correct' ? 'lightbulb' : 'info' }}</mat-icon>
+      <p>{{ question.explanation }}</p>
+    </div>
+  }
+</div>

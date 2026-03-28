@@ -1,0 +1,24 @@
+.progress-wrapper {
+  width: 100%;
+}
+
+.progress-label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+  font-size: 13px;
+
+  .label-text {
+    color: rgba(0,0,0,0.6);
+  }
+
+  .label-pct {
+    font-weight: 600;
+    color: var(--mat-sys-primary);
+  }
+}
+
+mat-progress-bar {
+  border-radius: 4px;
+  overflow: hidden;
+}

@@ -1,0 +1,50 @@
+@if (chapter(); as ch) {
+  <div class="chapter-detail-page">
+    <div class="hero" [style.background]="'linear-gradient(135deg, ' + ch.color + ' 0%, ' + ch.color + 'AA 100%)'">
+      <div class="hero-icon">
+        <mat-icon>{{ ch.icon }}</mat-icon>
+      </div>
+      <div class="hero-text">
+        <span class="ch-number">Hoofdstuk {{ ch.number }}</span>
+        <h2>{{ ch.title }}</h2>
+        <p>{{ ch.subtitle }}</p>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="progress-section">
+        <app-progress-bar
+          [value]="pct"
+          [label]="'Voortgang'"
+          [height]="10">
+        </app-progress-bar>
+        <div class="progress-stats">
+          <span>{{ ch.totalQuestions }} vragen</span>
+          @if (isCompleted) {
+            <span class="completed-badge">
+              <mat-icon>check_circle</mat-icon>
+              Voltooid!
+            </span>
+          }
+        </div>
+      </div>
+
+      <div class="info-card">
+        <h3>Over dit hoofdstuk</h3>
+        <p>
+          Dit hoofdstuk behandelt <strong>{{ ch.title }}</strong> uit de NEN 7510 norm voor informatiebeveiliging in de zorg.
+          Test je kennis met {{ ch.totalQuestions }} meerkeuzevragen en verdien XP bij elk correct antwoord.
+        </p>
+        <div class="xp-info">
+          <mat-icon>bolt</mat-icon>
+          <span>{{ ch.xpReward }} XP per correct antwoord</span>
+        </div>
+      </div>
+
+      <button mat-flat-button color="primary" class="start-btn" (click)="startQuiz()">
+        <mat-icon>play_arrow</mat-icon>
+        {{ isCompleted ? 'Opnieuw oefenen' : 'Start quiz' }}
+      </button>
+    </div>
+  </div>
+}

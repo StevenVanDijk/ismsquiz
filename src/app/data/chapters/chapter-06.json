@@ -1,0 +1,92 @@
+{
+  "chapterId": "ch06",
+  "title": "Planning",
+  "questions": [
+    {
+      "id": "ch06-q001",
+      "chapterId": "ch06",
+      "sectionRef": "6.1.1",
+      "difficulty": "beginner",
+      "question": "Wat is het doel van risicobeoordeling in NEN 7510?",
+      "options": [
+        { "id": "a", "text": "Het volledig elimineren van alle risico's voor de organisatie" },
+        { "id": "b", "text": "Het identificeren, analyseren en evalueren van risico's voor informatiebeveiliging" },
+        { "id": "c", "text": "Het opstellen van een lijst van beveiligingssoftware" },
+        { "id": "d", "text": "Het bepalen van het IT-budget voor het komende jaar" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Risicobeoordeling (paragraaf 6.1.2) omvat het identificeren van risico's voor informatiebeveiliging, het analyseren van de waarschijnlijkheid en impact, en het evalueren van risico's tegen de risicocriteria van de organisatie.",
+      "hint": "Risico's kunnen nooit volledig geëlimineerd worden — ze worden beheerd.",
+      "tags": ["risicobeoordeling", "risicobeheer", "6.1"],
+      "xpValue": 10
+    },
+    {
+      "id": "ch06-q002",
+      "chapterId": "ch06",
+      "sectionRef": "6.1.3",
+      "difficulty": "intermediate",
+      "question": "Wat is een 'Verklaring van Toepasselijkheid' (Statement of Applicability) in NEN 7510?",
+      "options": [
+        { "id": "a", "text": "Een contract met externe auditors" },
+        { "id": "b", "text": "Een document dat aangeeft welke beheersmaatregelen uit Bijlage A van toepassing zijn en waarom" },
+        { "id": "c", "text": "Een lijst van alle beveiligingsincidenten van het afgelopen jaar" },
+        { "id": "d", "text": "Een verklaring van de CEO over het beveiligingsbeleid" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "De Verklaring van Toepasselijkheid (VvT) is een verplicht document dat alle beheersmaatregelen uit Bijlage A bevat, aangeeft welke van toepassing zijn, de rechtvaardiging bevat voor opname of uitsluiting, en de implementatiestatus weergeeft.",
+      "tags": ["VvT", "statement of applicability", "beheersmaatregelen"],
+      "xpValue": 10
+    },
+    {
+      "id": "ch06-q003",
+      "chapterId": "ch06",
+      "sectionRef": "6.1.2",
+      "difficulty": "intermediate",
+      "question": "Welke vier stappen omvat het risicobehandelingsproces?",
+      "options": [
+        { "id": "a", "text": "Vermijden, overdragen, reduceren, accepteren" },
+        { "id": "b", "text": "Identificeren, analyseren, evalueren, rapporteren" },
+        { "id": "c", "text": "Plannen, uitvoeren, controleren, bijsturen" },
+        { "id": "d", "text": "Detecteren, reageren, herstellen, verbeteren" }
+      ],
+      "correctAnswerId": "a",
+      "explanation": "Risicobehandeling kent vier opties: risico vermijden (stop de activiteit), risico overdragen (verzekering, outsourcing), risico reduceren (beheersmaatregelen implementeren), of risico accepteren (bewuste keuze om het risico te dragen).",
+      "tags": ["risicobehandeling", "risico-opties"],
+      "xpValue": 10
+    },
+    {
+      "id": "ch06-q004",
+      "chapterId": "ch06",
+      "sectionRef": "6.2",
+      "difficulty": "beginner",
+      "question": "Wat zijn kenmerken van goede informatiebeveiligingsdoelstellingen volgens NEN 7510?",
+      "options": [
+        { "id": "a", "text": "Ze hoeven niet meetbaar te zijn als ze maar ambitieus zijn" },
+        { "id": "b", "text": "Ze moeten meetbaar zijn, consistent met het beleid, en worden gemonitord" },
+        { "id": "c", "text": "Ze worden jaarlijks door externe partijen bepaald" },
+        { "id": "d", "text": "Ze zijn uitsluitend gericht op technische beveiligingsmaatregelen" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Paragraaf 6.2 stelt dat informatiebeveiligingsdoelstellingen consistent moeten zijn met het beleid, meetbaar (indien haalbaar), rekening houden met toepasselijke eisen, worden gemonitord en worden bijgewerkt.",
+      "tags": ["doelstellingen", "meetbaar", "monitoring"],
+      "xpValue": 10
+    },
+    {
+      "id": "ch06-q005",
+      "chapterId": "ch06",
+      "sectionRef": "6.1.1",
+      "difficulty": "advanced",
+      "question": "Wat is het verschil tussen een 'bedreiging' en een 'kwetsbaarheid' in de context van risicoanalyse?",
+      "options": [
+        { "id": "a", "text": "Er is geen verschil, beide termen betekenen hetzelfde" },
+        { "id": "b", "text": "Een bedreiging is een potentiële oorzaak van schade; een kwetsbaarheid is een zwakte die door een bedreiging kan worden misbruikt" },
+        { "id": "c", "text": "Een kwetsbaarheid is een potentiële oorzaak van schade; een bedreiging is een zwakte" },
+        { "id": "d", "text": "Bedreigingen zijn altijd intern; kwetsbaarheden zijn altijd extern" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Een bedreiging (threat) is een potentiële oorzaak van een ongewenste incident, zoals een hacker of een brand. Een kwetsbaarheid (vulnerability) is een zwakte in een systeem of proces die door een bedreiging kan worden misbruikt, zoals een ongepatchte software of een zwak wachtwoord.",
+      "tags": ["bedreiging", "kwetsbaarheid", "risicoanalyse"],
+      "xpValue": 10
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+<div class="chapter-list-page">
+  <div class="page-header">
+    <h2>Hoofdstukken</h2>
+    <p>Kies een hoofdstuk om te oefenen</p>
+  </div>
+
+  <div class="chapters">
+    @for (ch of chapters(); track ch.id) {
+      <div class="chapter-card" (click)="navigate(ch.id)" [style.--ch-color]="ch.color">
+        <div class="card-left">
+          <div class="icon-wrap">
+            <mat-icon>{{ ch.icon }}</mat-icon>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="card-header">
+            <span class="ch-number">Hoofdstuk {{ ch.number }}</span>
+            @if (isCompleted(ch.id)) {
+              <mat-icon class="done-icon">check_circle</mat-icon>
+            }
+          </div>
+          <h3 class="ch-title">{{ ch.title }}</h3>
+          <p class="ch-subtitle">{{ ch.subtitle }}</p>
+          <app-progress-bar
+            [value]="chapterPct(ch.id)"
+            [showLabel]="false"
+            [height]="5">
+          </app-progress-bar>
+          <div class="card-footer">
+            <span class="questions-count">
+              <mat-icon>help_outline</mat-icon>
+              {{ ch.totalQuestions }} vragen
+            </span>
+            <span class="pct-label">{{ chapterPct(ch.id) }}% correct</span>
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+</div>

@@ -1,0 +1,143 @@
+{
+  "chapterId": "annex-a",
+  "title": "Bijlage A – Beheersmaatregelen",
+  "questions": [
+    {
+      "id": "annex-a-q001",
+      "chapterId": "annex-a",
+      "sectionRef": "A.5",
+      "difficulty": "beginner",
+      "question": "Tot welke categorie behoren beheersmaatregelen zoals beveiligingsbeleid, rollen en verantwoordelijkheden in NEN 7510 Bijlage A?",
+      "options": [
+        { "id": "a", "text": "Technische beheersmaatregelen" },
+        { "id": "b", "text": "Organisatorische beheersmaatregelen" },
+        { "id": "c", "text": "Fysieke beheersmaatregelen" },
+        { "id": "d", "text": "Personele beheersmaatregelen" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Bijlage A is ingedeeld in vier categorieën: organisatorisch (A.5), personeel (A.6), fysiek (A.7) en technologisch (A.8). Beleid, rollen en procedures vallen onder de organisatorische beheersmaatregelen.",
+      "hint": "Beleid en rollen zijn organisatiestructurele elementen.",
+      "tags": ["bijlage A", "organisatorisch", "categorieën"],
+      "xpValue": 15
+    },
+    {
+      "id": "annex-a-q002",
+      "chapterId": "annex-a",
+      "sectionRef": "A.8",
+      "difficulty": "intermediate",
+      "question": "Welke beheersmaatregelen vallen onder de categorie 'Technologische beheersmaatregelen' in Bijlage A?",
+      "options": [
+        { "id": "a", "text": "Toegangsbeleid en beveiligingsscreening van medewerkers" },
+        { "id": "b", "text": "Toegangsbeveiliging, cryptografie en beveiliging van netwerkdiensten" },
+        { "id": "c", "text": "Fysieke toegangscontrole en beveiliging van kantoorruimten" },
+        { "id": "d", "text": "Informatiebeveiligingsbeleid en leveranciersrelaties" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Technologische beheersmaatregelen (A.8) omvatten maatregelen zoals toegangsbeveiliging, identificatie en authenticatie, cryptografie, beveiliging van netwerken en eindpunten, en monitoring.",
+      "tags": ["technologisch", "bijlage A", "A.8"],
+      "xpValue": 15
+    },
+    {
+      "id": "annex-a-q003",
+      "chapterId": "annex-a",
+      "sectionRef": "A.7",
+      "difficulty": "beginner",
+      "question": "Welk type beheersmaatregel betreft het beveiligen van serverruimten en datacenters?",
+      "options": [
+        { "id": "a", "text": "Organisatorische beheersmaatregelen" },
+        { "id": "b", "text": "Personele beheersmaatregelen" },
+        { "id": "c", "text": "Fysieke beheersmaatregelen" },
+        { "id": "d", "text": "Cryptografische beheersmaatregelen" }
+      ],
+      "correctAnswerId": "c",
+      "explanation": "Fysieke beheersmaatregelen (A.7) omvatten maatregelen om fysieke omgevingen te beveiligen, zoals toegangscontrole tot gebouwen, beveiliging van apparatuur, bescherming tegen omgevingsgevaren en het opruimbeleid (clean desk).",
+      "tags": ["fysiek", "bijlage A", "A.7"],
+      "xpValue": 15
+    },
+    {
+      "id": "annex-a-q004",
+      "chapterId": "annex-a",
+      "sectionRef": "A.6",
+      "difficulty": "intermediate",
+      "question": "Welke personeelsgerelateerde beheersmaatregelen zijn opgenomen in NEN 7510 Bijlage A?",
+      "options": [
+        { "id": "a", "text": "Alleen salarisverhoging en arbeidsvoorwaarden" },
+        { "id": "b", "text": "Screening voor aanvang, verantwoordelijkheden tijdens dienstverband en processen bij beëindiging" },
+        { "id": "c", "text": "Uitsluitend technische toegangsrechten van medewerkers" },
+        { "id": "d", "text": "Alleen training en bewustwording" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Personele beheersmaatregelen (A.6) omvatten: screening voor aanvang (achtergrondcontrole), arbeidsvoorwaarden met beveiligingsverplichtingen, bewustwording en opleiding, disciplinaire processen en procedures bij beëindiging of wijziging van dienstverband.",
+      "tags": ["personeel", "bijlage A", "A.6", "screening"],
+      "xpValue": 15
+    },
+    {
+      "id": "annex-a-q005",
+      "chapterId": "annex-a",
+      "sectionRef": "A.5",
+      "difficulty": "advanced",
+      "question": "Wat is het doel van 'informatieclassificatie' als beheersmaatregel in Bijlage A?",
+      "options": [
+        { "id": "a", "text": "Het bepalen van de marktwaarde van informatie" },
+        { "id": "b", "text": "Het indelen van informatie op basis van de benodigde beschermingsniveaus" },
+        { "id": "c", "text": "Het opslaan van informatie in gecategoriseerde databases" },
+        { "id": "d", "text": "Het beperken van de hoeveelheid opgeslagen informatie" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Informatieclassificatie (A.5) heeft als doel informatie in te delen op basis van wettelijke, waarderings- en gevoeligheidseisen. Typische niveaus zijn: openbaar, intern, vertrouwelijk en geheim/strikt vertrouwelijk. Dit bepaalt hoe informatie wordt beveiligd, gedeeld en vernietigd.",
+      "tags": ["classificatie", "informatie", "bijlage A", "bescherming"],
+      "xpValue": 15
+    },
+    {
+      "id": "annex-a-q006",
+      "chapterId": "annex-a",
+      "sectionRef": "A.8",
+      "difficulty": "intermediate",
+      "question": "Wat is het principe van 'least privilege' bij toegangsbeveiliging?",
+      "options": [
+        { "id": "a", "text": "Medewerkers krijgen minimaal één toegangsrecht tot systemen" },
+        { "id": "b", "text": "Gebruikers krijgen alleen de minimale toegangsrechten die noodzakelijk zijn voor hun functie" },
+        { "id": "c", "text": "Alle medewerkers hebben gelijke toegangsrechten om discriminatie te voorkomen" },
+        { "id": "d", "text": "Toegang wordt verleend op basis van senioriteitsniveau" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Het principe van 'least privilege' (minimale bevoegdheden) houdt in dat gebruikers, processen en systemen alleen toegang krijgen tot de informatie en systemen die strikt noodzakelijk zijn voor hun functie. Dit beperkt de schade bij een compromittering.",
+      "tags": ["least privilege", "toegangsbeveiliging", "A.8"],
+      "xpValue": 15
+    },
+    {
+      "id": "annex-a-q007",
+      "chapterId": "annex-a",
+      "sectionRef": "A.8",
+      "difficulty": "advanced",
+      "question": "Wat verstaat NEN 7510 onder 'cryptografie' als beheersmaatregel?",
+      "options": [
+        { "id": "a", "text": "Uitsluitend het versleutelen van e-mailberichten" },
+        { "id": "b", "text": "Het gebruik van versleuteling en sleutelbeheer om vertrouwelijkheid, authenticiteit en integriteit te waarborgen" },
+        { "id": "c", "text": "Het beveiligen van fysieke sleutels tot datacenters" },
+        { "id": "d", "text": "Alleen het gebruik van wachtwoorden en pincodes" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Cryptografische beheersmaatregelen (A.8) omvatten beleid voor het gebruik van cryptografie, inclusief encryptie voor dataopslag en -transport, digitale handtekeningen voor authenticiteit en integriteit, en een adequaat sleutelbeheersysteem.",
+      "tags": ["cryptografie", "encryptie", "sleutelbeheer", "A.8"],
+      "xpValue": 15
+    },
+    {
+      "id": "annex-a-q008",
+      "chapterId": "annex-a",
+      "sectionRef": "A.5",
+      "difficulty": "intermediate",
+      "question": "Wat is een 'informatiebeveiligingsbeleid voor leveranciers' in de context van Bijlage A?",
+      "options": [
+        { "id": "a", "text": "Een beleid dat leveranciers verbiedt om informatie op te slaan" },
+        { "id": "b", "text": "Afspraken en eisen die aan leveranciers worden gesteld om informatiebeveiliging te waarborgen bij uitbesteding" },
+        { "id": "c", "text": "Een inkoopbeleid voor beveiligingssoftware" },
+        { "id": "d", "text": "Regels over hoe leveranciers betaald worden voor beveiligingsdiensten" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Leveranciersbeleid (A.5) omvat het identificeren en beheren van beveiligingsrisico's die samenhangen met het gebruik van leveranciers en derden. Dit omvat contractuele beveiligingseisen, monitoring van leveranciersprestaties en procedures bij beëindiging van relaties.",
+      "tags": ["leveranciers", "ketenveiligheid", "bijlage A", "uitbesteding"],
+      "xpValue": 15
+    }
+  ]
+}

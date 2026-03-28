@@ -1,0 +1,92 @@
+{
+  "chapterId": "ch10",
+  "title": "Verbetering",
+  "questions": [
+    {
+      "id": "ch10-q001",
+      "chapterId": "ch10",
+      "sectionRef": "10.1",
+      "difficulty": "beginner",
+      "question": "Wat moet een organisatie doen als er een afwijking (nonconformiteit) wordt vastgesteld in het ISMS?",
+      "options": [
+        { "id": "a", "text": "De afwijking negeren als deze niet tot een incident heeft geleid" },
+        { "id": "b", "text": "Reageren op de afwijking, de oorzaak aanpakken en corrigerende maatregelen nemen" },
+        { "id": "c", "text": "De verantwoordelijke medewerker disciplinair bestraffen" },
+        { "id": "d", "text": "Wachten op de volgende interne audit om de afwijking te bespreken" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Paragraaf 10.1 vereist dat bij een afwijking de organisatie reageert door de afwijking te beheersen, de gevolgen te beoordelen, de oorzaak te bepalen en corrigerende maatregelen te nemen om herhaling te voorkomen.",
+      "hint": "Reageer proactief, niet reactief.",
+      "tags": ["afwijking", "nonconformiteit", "corrigerende maatregel"],
+      "xpValue": 10
+    },
+    {
+      "id": "ch10-q002",
+      "chapterId": "ch10",
+      "sectionRef": "10.1",
+      "difficulty": "intermediate",
+      "question": "Wat is het verschil tussen een corrigerende maatregel en een correctie?",
+      "options": [
+        { "id": "a", "text": "Er is geen verschil, beide begrippen zijn synoniem" },
+        { "id": "b", "text": "Een correctie herstelt de afwijking zelf; een corrigerende maatregel pakt de oorzaak aan om herhaling te voorkomen" },
+        { "id": "c", "text": "Een corrigerende maatregel is reactief; een correctie is proactief" },
+        { "id": "d", "text": "Correcties zijn alleen van toepassing op technische problemen" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Een correctie is het direct herstel van de afwijking (symptoombehandeling). Een corrigerende maatregel richt zich op het elimineren van de oorzaak zodat de afwijking niet opnieuw optreedt. NEN 7510 vereist beide.",
+      "tags": ["corrigerende maatregel", "correctie", "oorzaakanalyse"],
+      "xpValue": 10
+    },
+    {
+      "id": "ch10-q003",
+      "chapterId": "ch10",
+      "sectionRef": "10.2",
+      "difficulty": "beginner",
+      "question": "Wat betekent 'continue verbetering' in het kader van NEN 7510?",
+      "options": [
+        { "id": "a", "text": "Het jaarlijks volledig vervangen van het ISMS" },
+        { "id": "b", "text": "Het voortdurend verbeteren van de geschiktheid, toereikendheid en effectiviteit van het ISMS" },
+        { "id": "c", "text": "Het continu uitbreiden van het beveiligingsbudget" },
+        { "id": "d", "text": "Het regelmatig inhuren van nieuwe beveiligingsexperts" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Paragraaf 10.2 vereist dat de organisatie continu de geschiktheid, toereikendheid en effectiviteit van het ISMS verbetert. Dit is een fundamenteel principe van ISO-managementsystemen en het PDCA-model.",
+      "tags": ["continue verbetering", "PDCA", "effectiviteit"],
+      "xpValue": 10
+    },
+    {
+      "id": "ch10-q004",
+      "chapterId": "ch10",
+      "sectionRef": "10.1",
+      "difficulty": "intermediate",
+      "question": "Wat moet worden gedocumenteerd bij het omgaan met afwijkingen?",
+      "options": [
+        { "id": "a", "text": "Alleen de naam van de verantwoordelijke medewerker" },
+        { "id": "b", "text": "De aard van de afwijkingen en de genomen corrigerende maatregelen inclusief resultaten" },
+        { "id": "c", "text": "Uitsluitend de financiële impact van de afwijking" },
+        { "id": "d", "text": "Alleen de datum waarop de afwijking werd ontdekt" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "NEN 7510 vereist dat de organisatie gedocumenteerde informatie bewaart over de aard van de afwijkingen, de genomen maatregelen en de resultaten van corrigerende maatregelen.",
+      "tags": ["documentatie", "afwijking", "bewijs"],
+      "xpValue": 10
+    },
+    {
+      "id": "ch10-q005",
+      "chapterId": "ch10",
+      "sectionRef": "10.1",
+      "difficulty": "advanced",
+      "question": "Hoe past de oorzaakanalyse (root cause analysis) in het verbeterproces van NEN 7510?",
+      "options": [
+        { "id": "a", "text": "Het is een optionele stap die alleen bij grote incidenten wordt uitgevoerd" },
+        { "id": "b", "text": "Het bepaalt de grondoorzaak van een afwijking zodat passende corrigerende maatregelen kunnen worden genomen" },
+        { "id": "c", "text": "Het is uitsluitend relevant voor technische IT-storingen" },
+        { "id": "d", "text": "Het is een financieel instrument om de kosten van beveiligingsincidenten te berekenen" }
+      ],
+      "correctAnswerId": "b",
+      "explanation": "Oorzaakanalyse is een essentieel onderdeel van het corrigerende maatregelenproces. Door de grondoorzaak te bepalen kunnen gerichte maatregelen worden genomen die herhaling voorkomen. Methoden zijn onder andere de '5 Whys'-techniek of oorzaak-gevolganalyse.",
+      "tags": ["oorzaakanalyse", "root cause", "corrigerende maatregelen"],
+      "xpValue": 10
+    }
+  ]
+}
