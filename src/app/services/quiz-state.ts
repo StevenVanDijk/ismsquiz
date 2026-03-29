@@ -60,10 +60,9 @@ export class QuizStateService {
 
   nextQuestion(): void {
     const next = this._currentIndex() + 1;
+    this._currentIndex.set(next);
     if (next >= this._questions().length) {
       this._isComplete.set(true);
-    } else {
-      this._currentIndex.set(next);
     }
   }
 
